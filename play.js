@@ -6,10 +6,3 @@ $( ".button" ).click(function() {
     audio.play();
 });
 });
-
-
-
-
-
-
-
