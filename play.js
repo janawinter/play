@@ -9,7 +9,7 @@ $(document).ready(function(){
     $(document).keydown(function(e){
         var drum ="";
         var char = String.fromCharCode(e.which).toLowerCase();
-        //console.log (e);
+        console.log(char);
         switch(char){
             case "a" :
             drum="kick";
@@ -39,12 +39,11 @@ $(document).ready(function(){
             drum="tomtom2"
             break;
 
-            case ";":
+            case "º":
             drum="tomtom3";
             break;
         }
         if (typeof(drum) !=='undefined'){
-            console.log(drum)
         $("#"+drum).click();
         }
 
