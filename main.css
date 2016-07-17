@@ -12,12 +12,16 @@ h1 {
   color:white;
   width: 400px;
   text-align: center;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 h2 {
  text-align:center;
- color:white;
+  color:white;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
 .sequencer {
   border-radius: 10px;
   padding-top: 20px;
@@ -30,7 +34,7 @@ h2 {
 
 }
 .button {
-  background-color: yellow;
+  background-color: #FF00FF;
   display: inline-block;
   width: 100px;
   font-size: 18px;
